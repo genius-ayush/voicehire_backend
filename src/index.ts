@@ -11,7 +11,7 @@ dotenv.config() ;
 const app = express()
 const port = 5000
 
-app.use(cors()) ; 
+app.use(cors()) ;
 app.use(express.json()) ; 
 
 app.get('/', (req, res) => {
